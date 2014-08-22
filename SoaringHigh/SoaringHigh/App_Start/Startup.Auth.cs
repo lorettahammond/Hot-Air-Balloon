@@ -3,7 +3,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
 
-namespace JQueryImageSlider
+namespace SoaringHigh
 {
     public partial class Startup
     {

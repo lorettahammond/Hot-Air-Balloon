@@ -1,11 +1,11 @@
-﻿using JQueryImageSlider.Models;
+﻿using SoaringHigh.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace JQueryImageSlider.Controllers
+namespace SoaringHigh.Controllers
 {
     public class HomeController : Controller
     {
