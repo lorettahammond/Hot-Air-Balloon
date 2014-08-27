@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace SoaringHigh.Controllers
 {
     public class HomeController : Controller
@@ -43,13 +44,27 @@ namespace SoaringHigh.Controllers
             return View();
         }
 
+        public ActionResult Rides()
+        {
+            ViewBag.Message = "Ride Vendors.";
+
+            return View();
+        }
+       
+        public ActionResult LaunchCriteria()
+        {
+            ViewBag.Message = "LaunchCriteria.";
+
+            return View();
+        }
+
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
-
-
+                
     }
 }
